@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatibile" content="IE=edge">
+        <meta name="viewport" content="width = device-width, inicial-scale = 1">
+        <title>My fckn Website</title>
+        <!-- Bootstrap CSS -->
+        <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet'>
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/main.css" type="text/css">
+
+    </head>
+    <body>
+        
+        <div class="container">
+          <!--Logo-->
+          <div class="jumbotron">
+            <img src="logo.png" id="logo" alt="Logo">
+            <span id="websiteTitle">My fckn Website!</span>
+            <p id="websiteSlogan">Videoblog about everything</p>
+          </div>
+          <!--Navbar-->
+          <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+            <a href="#" class="navbar-brand">MyBrand</a>
+            <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <div class="navbar-nav">
+                    <a href="#" class="nav-item nav-link active">Home</a>
+                    <a href="#" class="nav-item nav-link">About</a>
+                    <a href="#" class="nav-item nav-link">Products</a>
+                </div>
+                <form class="form-inline ml-auto">
+                    <input type="text" class="form-control mr-sm-2" placeholder="Search">
+                    <button type="submit" class="btn btn-outline-light">Search</button>
+                </form>
+            </div>
+        </nav>
+          <!--Slider-->
+          <div id="slider" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#slider" data-slide-to="0" class="active"></li>
+              <li data-target="#slider" data-slide-to="1"></li>
+              <li data-target="#slider" data-slide-to="2"></li>
+            </ol>
+            
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="slide1"></div>
+                <div class="carousel-caption">
+                  <h2>Amazing Scandinavia</h2>
+                  <p>A place you won't want to leave</p>
+                  <p><a href="#" class="btn btn-primary btn-sm">Get ticket now!</a></p>
+                </div>
+              </div>
+
+              <div class="carousel-item">
+                <div class="slide2"></div>
+                <div class="carousel-caption">
+                  <h2>Incredible views</h2>
+                  <p>...where trips will be reminded for ages</p>
+                </div>
+              </div>
+
+              <div class="carousel-item">
+                <div class="slide3"></div>
+                <div class="carousel-caption">
+                  <h2>Perfect place to chargge your battery</h2>
+                  <p>With that atmosphere problems doesn't exists</p>
+                </div>
+              </div>
+              
+            </div>
+            <a class="carousel-control-prev" href="#slider" role="button" data-slide="prev">
+              <span class="glyphicon glyphicon-chevron-left"></span> 
+            </a>
+
+            <a class="carousel-control-next" href="#slider" role="button" data-slide="next">
+              <span class="glyphicon glyphicon-chevron-right"></span> 
+            </a>
+          </div>
+          <!--Progress bars-->
+          <h3 class="margin">Time for work, time for study, time for life...</h3>
+          <div class="progress margin" style="height:25px;">
+            <div class="progress-bar" role="progressbar" style="width: 70%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">70%</div>
+          </div>
+          <p>Work</p>
+          <div class="progress margin" style="height:25px;">
+            <div class="progress-bar" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
+          </div>
+          <p>Study</p>
+          <div class="progress margin" style="height:25px;">
+            <div class="progress-bar" role="progressbar" style="width: 5%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">5%</div>
+          </div>
+          <p>Life</p>
+          <div class="progress margin" style="height:25px;">
+            <div class="progress-bar" role="progressbar" style="width: 100%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">100%</div>
+          </div>
+          <p>Bugs in JAVA</p>
+          <!--Grid-->
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                <h4>What is Lorem Ipsum?</h4>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                  Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                  when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has s
+                  urvived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. 
+                  It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, 
+                  and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                </p>
+              </div>
+              <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                <h4>Why do we use it?</h4>
+                <p>It is a long established fact that a reader will be distracted by the readable content of a 
+                  page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution 
+                  of letters, as opposed to using 'Content here, content here', 
+                  making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as 
+                  their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. 
+                  Various versions have evolved over the years, sometimes by accident, 
+                  sometimes on purpose (injected humour and the like).
+                  </p>
+              </div>
+              <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                <h4>Where does it come from?</h4>
+                <p>Contrary to popular belief, Lorem Ipsum is not simply random text. 
+                  It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. 
+                  Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, 
+                  looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, 
+                  and going through the cites of the word in classical literature, discovered the undoubtable source. 
+                  Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. 
+                  The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+                  </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--Footer-->
+        <footer class="page-footer font-small">
+          <div class="footer-copyright text-center py-3">© 2020 Copyright: Kamil Socha
+            <a href="index.html">MyfcknWebsite.com</a>
+          </div>
+        </footer>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="js/bootstrap.min.js"></script>
+    </body>
+</html>

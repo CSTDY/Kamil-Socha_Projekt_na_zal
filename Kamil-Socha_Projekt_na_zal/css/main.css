@@ -1,0 +1,47 @@
+body {
+    font-size: 80%;
+    font-family: arial, sans-serif;
+}
+
+.margin {
+    margin: 25px 0 0 0;
+}
+
+#logo {
+    width: 100px;
+    height: 100px;
+}
+
+#websiteTitle {
+    font-size: 4em;
+    vertical-align: middle;
+    font-family: 'Pacifico', cursive;
+    padding: 0 0 15px 0;
+    color: rgba(173, 11, 11, 0.897);
+}
+
+#websiteSlogan {
+    font-size: 2.5em;
+}
+
+/*Slides*/
+
+.slide1, .slide2, .slide3 {
+    height: 500px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.slide1 {
+    background-image: url('img/skandynawia1.jpg');
+}
+
+.slide2 {
+    background-image: url('img/skandynawia2.jpg');
+}
+
+.slide3 {
+    background-image: url('img/skandynawia3.jpg');
+}
+
